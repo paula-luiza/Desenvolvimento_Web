@@ -4,29 +4,29 @@ Paula Luiza Rocha de Oliveira
 
 1- PYTHON
 https://docs.python.org/3/
-    O python é uma linguagem de programação. 
-    Relações de tópicos: 4, 5, 6, 7
+    O python é uma linguagem de programação de baixo nível, open-source. Vamos a utilizar quando escrevermos nossos códigos.
+    Relações de tópicos: 4, 5, 6, 7, 11
 
 2- VS CODE
 https://code.visualstudio.com/Docs
     O VS Code é um editor de texto. Vamos utilizá-lo para escrever e editar nosso código ao longo do curso.
-Relações de tópicos: 4, 5, 6
+    Relações de tópicos: 4, 5, 6, 7, 9, 11
 
 3- GIT
 https://git-scm.com/docs
 https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
-    O git é um Sistema de Controle de Versão (VCS), isso é, um sistema que grava mudanças feitas a arquivos ao longo do tempo.         Isso permite que versões anteriores dos arquivos sejam acessadas, caso seja preciso acessá-las, e também permite um trabalho       colaborativo organizado.
-Relações de tópicos: 4
+    O git é um Sistema de Controle de Versão (VCS), isso é, um sistema que grava mudanças feitas a arquivos ao longo do tempo. Isso permite que versões anteriores dos arquivos sejam acessadas, caso seja preciso acessá-las, e também permite um trabalho colaborativo organizado. Está relacionado a praticamente todos os tópicos se pensarmos pelo lado de salvar e arquivar os arquivos produzidos no projeto.
+Relações de tópicos: 4, 14
 
 4- SQLITE BROWSER
 https://github.com/sqlitebrowser/sqlitebrowser/wiki
     É uma ferramente open-source para criar e editar arquivos de bancos de dados. É possível por exemplo, procurar registros, importar e exportá-los como texto ou arquivos .CSV, entre outras funções.
-Relações de tópicos:
+Relações de tópicos: 8, 9, 11, 13, 14
 
 5- NAVEGADORES
 Chrome: https://developer.chrome.com/docs?hl=pt-br
-    Programa que permite a usuário da internet consultar páginas da web.
-Relações de tópicos: 1, 2, 3
+   O navegador é um programa que permite a usuário da internet consultar páginas da web.
+Relações de tópicos: 1, 2, 3, 9, 10, 12, 13
 
 TÓPICOS DE CONTEÚDO
 
