@@ -1,0 +1,39 @@
+
+h3{
+    font-size: 30px;
+}
+
+html{
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+span{
+    font-weight: bold;
+    color: red;
+    background-color:aquamarine;
+}
+
+#footer{
+    background-color: blueviolet;
+    min-height: 39px;
+}
+
+#destaques{
+    min-height: 50vh;
+}
+
+#wrapper{
+    display: flex;
+}
+
+#wrapper > div{
+    flex: 1;
+    width: 20em;
+}
+
+#wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap:10px;
+}
