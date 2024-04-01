@@ -1,39 +1,63 @@
-/*olhar no terminal do mozilla
-TA DANDO TD ROSA*/
 /*var: possui o escopo de função
 "se criarmos uma variável deste tipo dentro de uma função, sua referência poderá ser identificada e modificada em qualquer parte desta função, mesmo que criemos outros escopos dentro dela, como um bloco if(), switch() ou for()"*/
-function testeVar(){
-    var exemplo = 'azul';
-    var x = 3;
+
+function testeVar(x){
+    var exemploVar = 'azul';
     if (x > 1){
-        exemplo = 'rosa';
-        x++;
-        console.log('VAR dentro do if: ' + exemplo,x);
+        return exemploVar;
+    } else {
+        var exemploVar = 'rosa'
+        return exemploVar;
     }
-    console.log('VAR fora do if: ' + exemplo,x);
 }
 
 
 /*let: */
-function testeLet(){
-    let exemplo2 = 'azul';
-    let y = 3;
+function testeLet(y){
+    let exemploLet;
     if (y > 1){
-        exemplo2 = 'rosa';
-        y++;
-        console.log('LET dentro do if: ' + exemplo2,y);
+        exemploLet = 'azul';
+    } else {
+        exemploLet = 'rosa';
     }
-    console.log('LET fora do if: ' + exemplo2,y);
+    return exemploLet;
 }
 
 /*const: define uma constante
 Não significa necessariamente que seu valor não pode ser mudado. Significa que não podemos sobrescrever o seu identificador */
 
-function testeConst(){
-    const nome = 'Paula';
-    console.log(nome);
+function testeConst(z){
+    const exemploConst = 'Paula';
+    if (z > 1){
+       return exemploConst;
+    } else {
+       return exemploConst;
+    }
 }
 
-testeConst();
-testeLet();
-testeVar();
+const meuArray = [];
+
+meuArray[0] = 'primeiro';
+meuArray[2] = 'elemento indice 2';
+
+console.log(meuArray);
+console.log(meuArray[2]);
+console.log('tamanho do array', meuArray.length);
+
+/*FUNÇÕES*/
+
+meuArray.push('novo elemento');
+console.log(meuArray);
+console.log('tamanho do array', meuArray.length);
+
+console.log(meuArray.pop());
+console.log(meuArray);
+console.log('tamanho do array dps do pop', meuArray.length);
+
+console.log(meuArray.shift());
+console.log(meuArray);
+console.log('tamanho do array', meuArray.length);
+
+meuArray.unshift('no inicio');
+console.log(meuArray);
+console.log('tamanho do array', meuArray.length);
