@@ -13,9 +13,16 @@
     font-size: 3rem;
     font-family: sans-serif;
     color: black;
-    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.impar{
+    display: none;
+}
+
+.par{
+    display: flex;
 }
 
 @media screen and (min-width: 576px) {
@@ -30,18 +37,35 @@
         grid-template-columns: auto auto auto auto; /*4 colunas */
         grid-template-rows: repeat(4, 5rem);
     }
+
+    .impar{
+        display: flex;
+    }
+    
+    .par{
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width: 1024px) {
     #container { 
         grid-template-columns: repeat(6, auto);
-        grid-template-rows: repeat(4, 5rem);
     }
+
+    .par{
+        display: flex;
+    }
+
+    .impar{
+        display: flex;
+        grid-column: span 3;
+    }
+    
 }
 
 @media screen and (min-width: 1280px) {
     #container { 
         grid-template-columns: repeat(8, auto);
-        grid-template-rows: repeat(4, 5rem);
     }
 }
