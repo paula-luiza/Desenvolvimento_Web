@@ -1,0 +1,47 @@
+#container{
+    display: grid;
+    grid-template-columns: auto; /*padrao de qnts colunas ele vai ter*/
+    background-color: goldenrod;
+    gap: .3rem;
+    padding: .3rem;
+    grid-template-rows: repeat(18, 5rem); /*repetir 16 vezes 5 rem, para as 16 divs*/
+}
+
+#container > div{ /*pega tds os filhos do container*/
+    background-color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+ #container { 
+        grid-template-columns: auto auto; 
+        grid-template-rows: repeat(4, 5rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #container { 
+        grid-template-columns: auto auto auto auto; /*4 colunas */
+        grid-template-rows: repeat(4, 5rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #container { 
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(4, 5rem);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #container { 
+        grid-template-columns: repeat(8, auto);
+        grid-template-rows: repeat(4, 5rem);
+    }
+}
